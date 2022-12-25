@@ -1,0 +1,5 @@
+# calculating total cost of apples
+cost=50
+apples=int(input('Enter number of apples : '))
+total_cost=cost*apples
+print(f'Total cost of {apples} is {total_cost}')
