@@ -1,0 +1,7 @@
+# apply 5% discount on total cost of n books
+n=int(input('Number of books : '))
+cost=int(int(input('cost of one book : ')))
+total_cost=n*cost
+discount=(5/100)*total_cost
+final_cost=total_cost-discount
+print(final_cost)
